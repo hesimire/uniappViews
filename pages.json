@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "个人",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/ShopDetails/ShopDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "商城用户登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/cartsDetails/cartsDetails",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "修改账号信息",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小米商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/shouye.png",
+				"selectedIconPath": "static/images/shouye-xuanzhong.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/images/zixun.png",
+				"selectedIconPath": "/static/images/zixunxuanzhong.png",
+				"text": "商城"
+			}, {
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/images/gouwuche.png",
+				"selectedIconPath": "/static/images/gouwuchexuanzhong.png",
+				"text": "购物车"
+			}, {
+				"pagePath": "pages/me/me",
+				"iconPath": "static/images/wode.png",
+				"selectedIconPath": "/static/images/wode_xuanzhong.png",
+				"text": "我的"
+			}
+		]
+	}
+}

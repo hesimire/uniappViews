@@ -1,0 +1,11 @@
+{
+  "name": "uniapp_shopping",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "uview-ui": "2.0.31",
+    "vant": "^3.5.1",
+    "vuex": "^4.0.2"
+  }
+}
